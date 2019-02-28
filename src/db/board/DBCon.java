@@ -32,7 +32,8 @@ public class DBCon {
 				e.printStackTrace();
 			}
 		}
-		con = null; //해지의 역할
+		con = null; //연결해지의 역할
+		System.out.println(con); // 전화기도 버림
 	}
 	
 	public static void main(String[] args) {

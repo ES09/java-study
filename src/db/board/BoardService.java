@@ -26,7 +26,7 @@ public class BoardService {
 	
 	public void insertBoard(String title, String content) {
 		String sql = "insert into board_info(bi_num, bi_title,"
-					+ "bi_content, bi_credat, bi_crtim)";
+					+ "bi_content, bi_credat, bi_cretim)";
 		sql += "values(seq_bi_num.nextval, ?, ?, to_char(sysdate, 'YYYYMMDD')"
 				+ ", to_char(sysdate, 'HH24MISS'))";
 				PreparedStatement ps;
