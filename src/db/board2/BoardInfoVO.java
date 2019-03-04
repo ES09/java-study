@@ -9,7 +9,22 @@ public class BoardInfoVO {
 	private String biCretim;
 	private Integer biCnt;
 	private String biIsactive;
+	private int uiNum;
+	private String uiName;
 	
+	public int getUiNum() {
+		return uiNum;
+	}
+	public void setUiNum(int uiNum) {
+		this.uiNum = uiNum;
+	}
+	public String getUiName() {
+		return uiName;
+	}
+	public void setUiName(String uiName) {
+		this.uiName = uiName;
+	}
+
 	public Integer getBiNum() {
 		return biNum;
 	}
@@ -55,12 +70,10 @@ public class BoardInfoVO {
 	
 	@Override
 	public String toString() {
-		
 		return "BoardInfoVO [biNum=" + biNum + ", biTitle=" + biTitle + ", biContent=" + biContent + ", biCredat="
-				+ biCredat + ", biCretim=" + biCretim + ", biCnt=" + biCnt + ", biIsactive=" + biIsactive + "]";
+				+ biCredat + ", biCretim=" + biCretim + ", biCnt=" + biCnt + ", biIsactive=" + biIsactive + ", uiNum="
+				+ uiNum + ", uiName=" + uiName + "]";
 	}
-
-	
-	
+		
 	
 }
