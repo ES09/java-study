@@ -13,7 +13,7 @@ public class BseBall1 {
 				numList.add(ranNum);
 			} else {
 				i--;
-			}
+			} 
 		}
 
 	//	System.out.println("numList : " + numList);
